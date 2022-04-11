@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15074f7593.js" crossorigin="anonymous"></script>
+
+    <title> Previsão </title>
+</head>
+<body>
+    <section id="open-nav-mode"></section>
+    <div id="container-prev" class="center">
+        <div id="prev">
+            <div id="close-prev"> <span id="x-prev" class="material-icons">
+                close
+                </span></div>
+            <h4 id="prev-title"> Previsão de consumo - 21/09/2021</h4>
+            <p id="resultado-prev"> 600 </p>
+            <p id="comp-prev"> Refeições </p>
+        </div>
+    </div>
+    <header>
+        <div id="menu-bar">
+            <span class="material-icons" id="open-nav">
+                menu
+            </span>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="alimentos.html">Alimentos</a></li>
+            <li><a href="cardapio.html"> Cardápio </a></li>
+            <li> <a href="previsao.html"> Previsão </a></li>
+            <li><a href="avaliacoes.html"> Avaliações e sugestões </a></li>
+        </ul>
+        <span class="material-icons" id="close-nav">
+            menu_open
+            </span>
+    </nav>
+    <main>
+        <div class="titulo">
+            <h1> Previsão Diária  </h1>
+        </div>
+        <div class="info">
+            <p class="info-previsao">
+                Selecione uma data pra realizar a previsão do consumo. A previsão é feita através de mecanismos de aprendizado de máquina,
+                que através de inteligência artificial, analisam os dados relacionados ao consumo ao longo do tempo para definir um padrão, 
+                diminuindo consequentemente, a quantidade de comida desperdiçada.
+            </p>
+        </div>
+        <div class="center">
+            <form action="" id="form-prev" class="form-add">
+                <div class="form-block">
+                    <input type="date">
+                </div>
+
+                <div class="submit-container">
+                    <button id="prever"> Prever </button>
+                </div>
+            </form>
+        </div>
+
+    
+    </main>
+   
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

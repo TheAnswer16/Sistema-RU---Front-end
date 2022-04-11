@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15074f7593.js" crossorigin="anonymous"></script>
+
+    <title> Novo cardapio </title>
+</head>
+<body>
+    <section id="open-nav-mode"></section>
+    <header>
+        <div id="menu-bar">
+            <span class="material-icons" id="open-nav">
+                menu
+            </span>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="alimentos.html">Alimentos</a></li>
+            <li><a href="cardapio.html"> Cardápio </a></li>
+            <li> <a href="previsao.html"> Previsão </a></li>
+            <li><a href="avaliacoes.html"> Avaliações e sugestões </a></li>
+        </ul>
+        <span class="material-icons" id="close-nav">
+            menu_open
+            </span>
+    </nav>
+    <main>
+        <div class="titulo">
+            <h1> Novo Cardápio </h1>
+        </div>
+
+        <div class="center">
+            <form action="" id="new-cardapio" class="form-add">
+                <div class="form-block">
+                    <label for="date-card"> Data: </label>
+                    <input type="date" name="date-card" id="">
+                </div>
+                <div class="form-block">
+                    <label for="principal"> Principal: </label>
+                    <select name="principal" id="">
+                        <option value=""> Frango Santo Antônio	</option>
+                        <option value=""> Quibe de Presunto, Muçarela e Bacon	</option>
+                        <option value=""> Estrogonofe Bovino </option>
+                        <option value=""> Feijoada </option>
+                    </select>
+                </div>
+                <div class="form-block">
+                    <label for="vegetariano"> Vegetariano: </label>
+                    <select name="vegetariano" id="">
+                        <option value=""> Estrogonofe Vegano </option>
+                        <option value=""> Tofu </option>
+                    </select>
+                </div>
+                <div class="form-block">
+                    <label for="guarnicao"> Guarnição: </label>
+                    <select name="guarnicao" id="">
+                        <option value=""> Milho </option>
+                        <option value=""> Ervilha </option>
+                        <option value=""> Palmito </option>
+                        <option value=""> Azeitona </option>
+                    </select>
+                </div>
+                <div class="form-block">
+                    <label for="sobremesa"> Sobremesa: </label>
+                    <select name="sobremesa" id="">]
+                        <option value=""> Fruta </option>
+                        <option value=""> Sorvete </option>
+                    </select>
+                </div>
+                <div class="form-block">
+                    <label for="suco"> Suco </label>
+                    <select name="suco" id="">
+                        <option value=""> Laranja </option>
+                        <option value=""> Maracujá </option>
+                        <option value=""> Acerola </option>
+                    </select>
+                </div>
+                <div class="form-block">
+                    <label for="quantidade"> Quantidade </label>
+                    <input type="number" name="quantidade" id="">
+                </div>
+                <div class="submit-container">
+                    <button type="submit"> Adicionar </button>
+                </div>
+            </form>
+        </div>
+   
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

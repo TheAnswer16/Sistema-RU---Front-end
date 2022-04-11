@@ -1,0 +1,598 @@
+/* Color Theme Swatches in Hex */
+.Telegram-Branding-Concept-1-hex { color: #076DF2; }
+.Telegram-Branding-Concept-2-hex { color: #0583F2; }
+.Telegram-Branding-Concept-3-hex { color: #044D8C; }
+.Telegram-Branding-Concept-4-hex { color: #031926; }
+.Telegram-Branding-Concept-5-hex { color: #F0F2F2; }
+
+body{
+    font-family: 'Raleway';
+    
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 2;
+}
+
+nav ul{
+    width: 35vw;
+    height: 100vh;
+    background-color: #031926;
+}
+
+nav li{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #0583F2;
+    transition: 0.3s color;
+}
+
+nav a:hover{
+    color: #6bb8fb;
+   
+}
+
+
+#close-nav{
+    font-size: 60px;
+    color: #6bb8fb;
+    transition: 0.3s color;
+}
+
+#close-nav:hover{
+    color: #076DF2;
+    cursor: pointer;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#menu-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0 0 20px;    
+}
+
+#menu-bar span{
+    font-size: 50px;
+    color: #888888;
+    transition: 0.3s color;
+}
+
+#menu-bar span:hover{
+    color: #031926;
+    cursor: pointer;
+}
+
+#open-nav-mode{
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    display: none;
+}
+
+#container-delete{
+    position: fixed;
+    z-index: 2;
+    width:100%;
+    height: 100vh;
+    align-items: center;
+}
+
+#container-prev{
+    position: fixed;
+    z-index: 3;
+    width:100%;
+    height: 100vh;
+    align-items: center;
+}
+
+#delete-box{
+    background-color: #031926;
+    padding:15px;
+    min-height: 250px;
+    min-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#prev{
+    background-color: #031926;
+    padding:15px;
+    min-height: 250px;
+    min-width: 550px;
+}
+
+#close-prev{
+    text-align: right;
+}
+
+#close-prev span{
+    color: red;
+    font-size: 40px;
+    transition: 0.2s color;
+}
+
+#close-prev span:hover{
+    color: #c30202;
+    cursor: pointer;
+}
+
+#prev h4{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#resultado-prev{
+    text-align: center;
+    color: #0583F2;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#comp-prev{
+    text-align: center;
+    color: #0583F2;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#delete-box p{
+    font-size: 30px;
+    color: #0583F2;
+}
+
+#delete-conf{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#delete-conf button{
+    font-family: 'Raleway';
+    padding: 10px 15px 10px 15px;
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+    margin: 0 10px 0 10px;
+    transition: 0.3s background-color;
+    cursor: pointer;
+}
+
+#delete-button{
+    background-color: red;
+}
+
+#delete-button:hover{
+    background-color: #db0505;
+}
+
+#cancel-button{
+    background-color: #fbcf09;
+}
+
+#cancel-button:hover{
+    background-color: #d6b008;
+}
+
+#delete-conf a{
+    text-decoration: none;
+    color:white;
+}
+
+
+main{
+    padding-bottom: 30px;
+}
+
+#container-welcome{
+    padding-top: 140px;
+}
+
+#welcome-text{
+    text-align: center;
+    font-size: 60px;
+}
+
+#sub-welcome{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+#container-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 50%;
+}
+
+#container-options a{
+    text-decoration: none;
+    color: unset;
+    transition: 0.3s color, 0.5s transform;
+}
+
+#restaurante{
+    color: red;
+}
+
+#menu-book{
+    color: #076DF2;
+}
+
+#graph{
+    color: #7b2df8;
+}
+
+#container-options a:hover{
+    transform: scale(1.15);
+}
+
+#forum{
+    color: #dbcd00;
+}
+
+.option-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 20vw;
+    height: 180px;
+}
+
+.option-item span{
+    font-size: 80px;
+}
+
+.option-item p{
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.titulo{
+    padding: 110px 0 0 110px;
+    font-size: 50px;
+    color: #464646;
+}
+
+.info{
+    padding: 25px 0 0 130px;
+    font-size: 20px;
+    color: #626262;
+    width: 84%;
+}
+
+.info p{
+    line-height: 30px;
+    text-align: justify;
+}
+
+.painel-tabela{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84%;
+    margin-top: 30px;
+}
+
+.filter-bar{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 5px #cacaca;
+    border-radius: 5px;
+}
+
+.filter-bar span{
+    margin-left: 5px;
+    color: #888888;
+}
+
+.filter-bar input{
+    border: 0;
+    outline: 0;
+    font-family: 'Raleway';
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+.new-link{
+    color: unset;
+    text-decoration: none;
+}
+
+
+.new-item{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #03cf03;
+    transition: 0.3s color;
+}
+
+.new-item span{
+    margin-right: 5px;
+}
+
+.new-item p, .new-item span{
+    font-size: 25px;
+    color: white;
+}
+
+.new-item:hover{
+    background-color: #01a101;
+}
+
+table{
+    min-width: 82%;
+    width: auto;
+    margin-top: 40px;
+}
+
+
+
+th, td{
+    text-align: left;
+    padding: 15px;
+    vertical-align: middle;
+    border-bottom: solid 1px #d1d1d1;
+}
+
+.ed-title, .ed{
+    text-align: right;
+}
+
+ th{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+td{
+    font-size: 22px;
+    color: #313131;
+
+}
+
+#table-cardapio{
+    max-width: 90%;
+}
+
+#table-cardapio th{
+    font-size: 18px;
+}
+
+#table-cardapio td{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.ed a{
+    text-decoration: none;
+    color: unset;
+}
+
+.ed button{
+    border: 0;
+    outline: 0;
+    color: white;
+    padding: 5px;
+    transition: 0.3s background-color;
+    cursor: pointer;
+}
+
+.ed span{
+    font-size: 40px!important;
+}
+
+.create{
+    background-color: #01a101;
+}
+
+.create:hover{
+    background-color: #008300;
+}
+
+
+.edit{
+    background-color: #fbcf09;
+}
+
+.edit:hover{
+    background-color: #d6b008;
+}
+
+.delete{
+    background-color: red;
+}
+
+.delete:hover{
+    background-color: #db0505;
+}
+
+.form-add{
+    width:84%;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+
+.form-block{
+    margin-top: 30px;
+}
+
+.form-add label{
+    display: block;
+    font-size: 25px;
+}
+
+.form-add input, .form-add select{
+    margin-top: 7px;
+    font-size: 22px;
+    font-family: 'Raleway';
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(236, 236, 236);
+    color: #464646;
+}
+
+.submit-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.submit-container button{
+    border: 0;
+    outline: 0;
+    font-family: 'Raleway';
+    padding: 15px;
+    background-color: #03cf03;
+    color: white;
+    font-size: 22px;
+    transition: 0.3s background-color;
+}
+
+.submit-container button:hover{
+    background-color: #00a700;
+    cursor: pointer;
+}
+
+#container-avaliacoes{
+    width: 84%;
+    margin-top: 40px;
+}
+
+.head-avaliacoes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-bottom: solid 1px #cfcfcf;
+}
+
+.icon-expand span{
+    font-size: 40px;
+}
+
+.icon-expand span:hover{
+    color: #909090;
+    cursor: pointer;
+}
+
+.title-avaliacao{
+    font-size: 20px;
+}
+
+.rate span{
+    color: gold;
+}
+
+.delete-avaliacao span{
+    transition: 0.2s color;
+}
+
+.delete-avaliacao span:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.body-avaliacoes{
+    background-color: whitesmoke;
+    padding:15px 5px 5px 5px;
+    width: 100%;
+    display:none;
+}
+
+.body-avaliacoes ul{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #888888;
+}
+
+.body-avaliacoes li{
+    margin-bottom: 15px;
+}
+
+#container-sugestoes{
+    width: 84%;
+    margin-top: 40px;
+}
+
+.sugestao-item{
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.date-sugestao{
+    margin-top: 15px;
+    color: #888888;
+}
+
+.sugestao{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.delete-sugestao{
+    margin-top: 30px;
+    text-align: right;
+}
+
+.delete-sugestao span{
+    font-size: 20px;
+    color: #888888;
+    transition: 0.2s color;
+}
+
+.delete-sugestao span:hover{
+    color:red;
+    cursor: pointer;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px){
+    #container-options{
+        width: 98vw;
+    }
+
+
+    .option-item{
+        width: 25vw;
+    }
+}
