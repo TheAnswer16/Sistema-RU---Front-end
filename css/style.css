@@ -7,12 +7,44 @@
 
 body{
     font-family: 'Raleway';
+    transition: 0.4s all;
     
 }
 
 .dark-mode{
-    
+    background-color: #313131;
+    transition: 0.4s all;
 }
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode p,
+.dark-mode li,
+.dark-mode a,
+.dark-mode #close-nav,
+.dark-mode #close-nav:hover,
+.dark-mode .icon-expand,
+.dark-mode td,
+.dark-mode th
+{
+    color: rgb(245, 245, 245)!important;
+}
+
+.dark-mode .head-avaliacoes,
+.dark-mode .body-avaliacoes,
+.dark-mode .sugestao-item{
+    background-color: #3f3f3f;
+}
+
+.dark-mode nav ul
+{
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+
 
 nav{
     position: fixed;

@@ -82,10 +82,18 @@ iconExpand.on("click", function(){
     );
 });
 
-const darkModeButton = $('.dark-mode-button');
 
-darkModeButton.on("click", function(){
+const darkModeButton = $('.dark-mode-button');
+const darkModeSpace = $('.dark-mode-space');
+
+darkModeSpace.on("click", ativaDarkMode);
+
+
+
+function ativaDarkMode(){
     darkModeButton.toggleClass('dark-mode-on');  
     $('.light-mode-icon').toggleClass('light-mode-on-icon')
     $('.dark-mode-icon').toggleClass('off-dark-icon')
-});
+    $('body').toggleClass('dark-mode')
+}
+
