@@ -82,6 +82,25 @@ iconExpand.on("click", function(){
     );
 });
 
+var requestURL = 'http://localhost/Sistema-RU---Front-end/js/darkMode.json';
+
+var request = new XMLHttpRequest();
+
+request.open('GET', requestURL);
+
+request.responseType = 'json';
+request.send();
+
+request.onload = function(){
+    const darkMode = request.response;
+    console.log(darkMode)
+
+    if(darkMode["darkMode"] == false){
+
+    }
+}
+
+
 
 const darkModeButton = $('.dark-mode-button');
 const darkModeSpace = $('.dark-mode-space');
@@ -95,5 +114,30 @@ function ativaDarkMode(){
     $('.light-mode-icon').toggleClass('light-mode-on-icon')
     $('.dark-mode-icon').toggleClass('off-dark-icon')
     $('body').toggleClass('dark-mode')
+    $('.dark-mode-icon').toggleClass("fa-sun");
+    $('.dark-mode-icon').toggleClass("fa-moon")
+
+    // request.onload = function(){
+    //     const darkMode = request.response;
+    //     console.log(darkMode)
+        
+
+    // }
 }
 
+// request.onload = function(){
+//     const darkMode = request.response
+//     if(darkMode["darkMode"] == false && $('.dark-mode-on') == true){
+//         console.log("..");
+//         darkMode.darkMode = true;
+//     }
+    
+//     if (darkMode["darkMode"] == true){
+//         darkModeButton.addClass('dark-mode-on');  
+//         $('.light-mode-icon').toggleClass('light-mode-on-icon')
+//         $('.dark-mode-icon').toggleClass('off-dark-icon')
+//         $('body').toggleClass('dark-mode')
+//     }
+
+//     console.log(darkMode)
+// }
