@@ -1,3 +1,10 @@
+$('header').append("<div class='dark-mode-container'>" + 
+"<div class='dark-mode-space'>" + 
+    "<div class='dark-mode-button'></div>" + 
+    "<i class='fa fa-moon dark-mode-icon'></i>" + 
+    "</div>" + 
+"</div>")
+
 const openNav = $('#open-nav');
 const closeNav = $('#close-nav');
 const openMode = $('#open-nav-mode');
@@ -115,7 +122,8 @@ function ativaDarkMode(){
     $('.dark-mode-icon').toggleClass('off-dark-icon')
     $('body').toggleClass('dark-mode')
     $('.dark-mode-icon').toggleClass("fa-sun");
-    $('.dark-mode-icon').toggleClass("fa-moon")
+    $('.dark-mode-icon').toggleClass("fa-moon");
+
 
     // request.onload = function(){
     //     const darkMode = request.response;
